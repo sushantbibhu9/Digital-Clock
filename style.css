@@ -4,3 +4,23 @@
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+body, .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digital-clock, .time{
+    position: relative;
+}
+body{
+    min-height: 80vh;
+    background: #2e2e45;
+}
+.digital-clock{
+    color: #fff;
+    background-color: #2d2f38;
+    width: 425px;
+    padding: 20px 45px;
+    box-shadow: 0 5px 25px rgba(14, 21, 37, .8);
+    border-radius: 10px;
+}
